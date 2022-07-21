@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>网页版2048</title>
+		<link rel="stylesheet" type="text/css" href="css/2048.css"/>
+		<script type="text/javascript" src="js/jquery-1.11.1/jquery.js"></script>
+		<script type="text/javascript" src="js/support.js"></script><!-- 基础逻辑文件 -->
+		<script type="text/javascript" src="js/animation.js"></script><!-- 动画文件 -->
+		<script type="text/javascript" src="js/main.js"></script><!-- 游戏主逻辑 -->
+		<script type="text/javascript" src="js/game.js"></script><!-- 游戏交换逻辑文件 -->
+	</head>
+	<body>
+		<header>
+			<h1>2048</h1>
+			<a href="javascript:newgame();" id="newgamebutton">New Game</a>
+			<p>score:<span id="score">0</span></p>
+		</header>
+		
+		<div id="grid_container">
+			<div class="grid_cell" id="grid_cell_0_0"></div>
+			<div class="grid_cell" id="grid_cell_0_1"></div>
+			<div class="grid_cell" id="grid_cell_0_2"></div>
+			<div class="grid_cell" id="grid_cell_0_3"></div>
+			<div class="grid_cell" id="grid_cell_1_0"></div>
+			<div class="grid_cell" id="grid_cell_1_1"></div>
+			<div class="grid_cell" id="grid_cell_1_2"></div>
+			<div class="grid_cell" id="grid_cell_1_3"></div>
+			<div class="grid_cell" id="grid_cell_2_0"></div>
+			<div class="grid_cell" id="grid_cell_2_1"></div>
+			<div class="grid_cell" id="grid_cell_2_2"></div>
+			<div class="grid_cell" id="grid_cell_2_3"></div>
+			<div class="grid_cell" id="grid_cell_3_0"></div>
+			<div class="grid_cell" id="grid_cell_3_1"></div>
+			<div class="grid_cell" id="grid_cell_3_2"></div>
+			<div class="grid_cell" id="grid_cell_3_3"></div>
+		</div>
+	</body>
+
+</html>
